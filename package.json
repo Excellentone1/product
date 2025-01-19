@@ -1,0 +1,38 @@
+{
+  "name": "gulp_assembly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "browser-sync": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-avif": "^1.1.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imask": "^7.5.0",
+    "jquery": "^3.7.1",
+    "mixitup": "^3.3.1",
+    "rateyo": "^2.3.5",
+    "sass": "^1.77.2",
+    "swiper": "^11.1.15"
+  }
+}

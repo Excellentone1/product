@@ -1,0 +1,193 @@
+@import 'vars';
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+
+
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-body);
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #22343D;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+button{
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+:root{
+
+  --color-bg: #fff;
+  --color-body: #22343D;
+
+  --color-header-logo-title: #173A56;
+  --color-burger: #22343D;
+
+  --color-bg-mobile: #ffffff;
+  --color-bg-mobile-mod: #EDEDED;
+
+  --color-header-link: transparent;
+  --color-header-link-mod: #22343D;
+
+  --color-text-base-header-sign-in: #173A56;
+
+  --color-text-base-header-sign-up: #173A56;
+
+
+
+
+  --color-text-content-strategies: #22343D;
+  --color-border-content-strategies: #DEDEDE;
+
+  --color-text-item-content-strategies: #22343D;
+
+
+  --color-text-footer: #22343D;
+  --color-title-logo-footer: #173A56;
+
+
+  --color-bg-advantages: #F5F5F5;
+
+
+  --color-bg-offers: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0));
+
+
+
+  --color-bg-enterprise: linear-gradient(rgba(246, 246, 246, 1), rgba(246, 246, 246, 0));
+
+
+  --color-border-latest-stories: #DEDEDE;
+  --color-text-latest-stories: #22343D;
+  --color-svg-latest-stories: #2E3A59;
+
+
+  --color-border-contact-us: #DDDDDD;
+  --color-bg-contact-us: #ffffff;
+
+
+
+}
+
+.darkstyle{
+
+  --color-bg: #1F2E35;
+  --color-body: #ffffff;
+
+  --color-header-logo-title: #ffffff;
+  --color-burger: #ffffff;
+  --color-bg-mobile: #1F2E35;
+  --color-bg-mobile-mod: #22343D;
+
+  --color-header-link: transparent;
+  --color-header-link-mod: #ffffff;
+
+  --color-text-base-header-sign-in: #ffffff;
+
+  --color-text-base-header-sign-up: #ffffff;
+
+
+
+  --color-text-content-strategies: #ffffff;
+  --color-border-content-strategies: #1F2E35;
+
+  --color-text-item-content-strategies: #22343D;
+
+
+  --color-text-footer: #ffffff;
+  --color-title-logo-footer: #ffffff;
+
+
+  --color-bg-advantages: #22343D;
+
+
+  --color-bg-offers: #22343D;
+
+
+  --color-bg-enterprise: #22343D;
+
+
+
+  --color-border-latest-stories: #1F2E35;
+  --color-text-latest-stories: #ffffff;
+  --color-svg-latest-stories: #ffffff;
+
+
+  --color-border-contact-us: #464646;
+  --color-bg-contact-us: #22343D;
+
+
+
+
+}
+
+.start-color {
+  stop-color: #EDEDED;
+}
+
+.end-color {
+  stop-color: #fff;
+}
+
+.darkstyle .start-color {
+  stop-color: #22343D;
+}
+
+.darkstyle .end-color {
+  stop-color: #434343;
+}
+
+
+
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-mod{
+  display: flex;
+  max-width: 1150px;
+  width: 100%;
+}
+

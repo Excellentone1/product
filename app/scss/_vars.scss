@@ -1,0 +1,65 @@
+$green: #02897A;
+$blue: #4D8DFF;
+$purple: #740A76;
+$dark-blue: #22343D;
+$white: #ffffff;
+$red: #F03E3D;
+$orange: #FF9900;
+$brown: #2F281E;
+
+
+
+
+
+@mixin Montserrat-Regular{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@mixin Montserrat-Medium{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+@mixin Montserrat-Bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+@mixin Montserrat-Semibold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+@mixin Poppins-SemiBold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+@mixin Poppins-Regular{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+@mixin Poppins-Medium{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+@mixin Poppins-Bold{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+@mixin Roboto-Regular{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+@mixin Roboto-Medium{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+
+
